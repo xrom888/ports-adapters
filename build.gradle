@@ -1,0 +1,33 @@
+plugins {
+	id 'org.springframework.boot' version '2.5.5'
+	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+	id 'java'
+}
+
+group = 'com.igorkhromov'
+version = '0.0.1'
+
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	implementation 'com.typesafe.akka:akka-stream_2.13:2.6.16'
+//	implementation 'com.google.protobuf:protobuf-java:3.18.0'
+
+	implementation 'org.springframework.kafka:spring-kafka:2.7.7'
+//	implementation 'io.confluent:kafka-protobuf-serializer:5.5.1'
+
+	implementation 'ch.qos.logback:logback-classic:1.2.6'
+	implementation 'ch.qos.logback:logback-core:1.2.6'
+
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+test {
+	useJUnitPlatform()
+}
