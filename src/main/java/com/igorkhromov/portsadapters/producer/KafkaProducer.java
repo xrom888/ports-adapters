@@ -13,7 +13,7 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-@Component
+//@Component
 public class KafkaProducer {
 
     private final Logger log = LoggerFactory.getLogger(getClass());

@@ -8,7 +8,7 @@ import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class KafkaConsumer {
 
     private final Logger log = LoggerFactory.getLogger(getClass());

@@ -22,6 +22,9 @@ dependencies {
 	implementation 'org.springframework.kafka:spring-kafka:2.7.7'
 //	implementation 'io.confluent:kafka-protobuf-serializer:5.5.1'
 
+	implementation 'com.typesafe.akka:akka-stream_2.13:2.6.16'
+	implementation 'com.typesafe.akka:akka-stream-kafka_2.13:2.1.1'
+
 	implementation 'ch.qos.logback:logback-classic:1.2.6'
 	implementation 'ch.qos.logback:logback-core:1.2.6'
 
